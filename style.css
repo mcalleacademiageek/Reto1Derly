@@ -1,0 +1,92 @@
+
+
+:root{
+ --Very-Pale-Cyan: hsl(193, 100%, 96%);
+ --Very-Dark-Cyan: hsl(192, 100%, 9%);
+ --Grayish-Blue: hsl(208, 11%, 55%);
+ --Pink: hsl(322, 100%, 66%);
+}
+
+
+
+#background-screen{
+
+    background-image: url(images/bg-hero-desktop.svg);
+}
+
+.margin-top{
+
+    margin-top: 40px;
+
+}
+.btn-header{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 10px 3.12rem 10px 3.12rem;
+    background-color: #fff;
+    border-radius:25px 25px 25px 25px;
+    border: 1px solid transparent;
+    box-shadow: -1px 1px 1px rgba(0, 255, 242,0.9);
+   
+}
+/* section 1 */
+.title-sectio{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+.btn-sectio{
+    background-color: var(--Pink);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 3.12rem 10px 3.12rem;
+    border-radius:25px 25px 25px 25px;
+    border: 1px solid transparent;
+
+}
+.card-footer{
+    position: relative;
+    z-index: 10;
+    top: -20px;
+}
+.title-sectio-footer{
+    font-weight: bold;
+}
+
+/* end section 1 */
+
+
+/* Footer */
+
+.estilo-2{
+    position: relative;
+    top: 100px;
+  
+}
+.iconos::before{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    color: #ffff;
+    font-size: 18px;
+    
+}
+.ico-info{
+    color: #fff;
+    font-size: 18px;
+ 
+}
+.ico-info >a{
+    color: #fff;
+
+}
+.ico-red i{
+    color: #fff;
+    font-size: 22px;
+    border: 1px sol;
+    
+}
